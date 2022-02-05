@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Lamp{
+    background:red;
+}
+
+.lamp-socalo{
+    background:#000;
+    width:190px;
+    height:60px;
+    border-radius:50em 50em 0px 0px;
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+}
+.lamp-socalo::before{
+    content: '';
+    background:#000;
+    width:5px;
+    height:130px;
+    position: absolute;
+    top:0;
+}
+.lamp-socalo::after{
+    content: '';
+    background: #000;
+    width:70px;
+    height:30px;
+    position: absolute;
+    top:121px;
+    border-radius:15rem 15rem 0px 0px;
+}
+
+.lamp-lamp{
+    background:rgba(26,26,26,.3);
+    width:190px;
+    height:70px;
+    border-radius:0px 0px 200rem 200rem;
+}
+.On{
+    background:#fff;
+    box-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F,
+    0 0 120px #F1C40F,
+    0 0 280px #F1C40F,
+    0 0 560px #F1C40F;
+}
+
+
+.switch{
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    height:100px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 50px;
+    right:20px;
+
+}
+.btnLamp{
+    height:70px;
+    width:40px;
+    border-radius: 10px;
+    font-weight: 900;
+}
