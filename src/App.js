@@ -1,4 +1,5 @@
 import Lamp from './Component/Lamp.js'
+import Clock from './Component/Clock.js'
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
 
       <Lamp/>
+      <Clock time={new Date()}/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import '../Component/Lamp.css';
-
+import Clock from'../Component/Clock.js'
 
 
 const Lamp = ()=>{
@@ -7,6 +7,8 @@ const Lamp = ()=>{
         let Lamp = document.querySelector('.lamp-lamp');
         Lamp.classList.toggle('On');
         let BtnLamp = document.querySelector('.btnLamp');
+        let Clock = document.querySelector('.Clock');
+        Clock.classList.toggle('On');
 
         if(BtnLamp.textContent === "ON"){
             BtnLamp.textContent = "OFF"
